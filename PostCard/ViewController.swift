@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         mailButton.setTitle("MAIL SENT", forState: UIControlState.Normal)
         
-        //3rd commit - I changed something to test git
         
     }
     
