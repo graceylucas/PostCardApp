@@ -32,9 +32,9 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         resignEveryKeyboard()
         messageLabel.textColor = UIColor.redColor()
-        
         mailButton.setTitle("MAIL SENT", forState: UIControlState.Normal)
         
+        //Adding a comment to test commits
         
     }
     
