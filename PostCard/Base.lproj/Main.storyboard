@@ -105,6 +105,15 @@
                                     <action selector="sendMessageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U23-qM-sIb"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKR-WD-4Lw">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="174" width="170" height="41"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="19T-IC-lxN"/>
                                 <exclude reference="zEK-p2-wpY"/>
                                 <exclude reference="4XX-ik-Vad"/>
+                                <exclude reference="HKR-WD-4Lw"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="19T-IC-lxN"/>
                                 <include reference="zEK-p2-wpY"/>
                                 <include reference="4XX-ik-Vad"/>
+                                <include reference="HKR-WD-4Lw"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="19T-IC-lxN" id="tWx-zx-J6u"/>
                         <outlet property="mailButton" destination="4XX-ik-Vad" id="e3h-xb-aYt"/>
                         <outlet property="messageLabel" destination="Kzc-Gw-E2J" id="4wh-5C-ZE3"/>
+                        <outlet property="nameLabel" destination="HKR-WD-4Lw" id="M6b-RV-fYF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
